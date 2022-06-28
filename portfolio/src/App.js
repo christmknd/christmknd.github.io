@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Readme from "./components/Readme";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="Portfolio" element= {<Portfolio/>}/>
           <Route path="Readme" element= {<Readme/>}/>
       </Routes>
+        <Footer/>
     </div>
   );
 }

@@ -4,13 +4,31 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer (){
+
+    const [value, setValue] = React.useState('github');
+
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    };
+
     return (
-            <BottomNavigation
-                showLabels
-            >
-                <BottomNavigationAction label="Linkedin" icon={<LinkedInIcon />} />
-                <BottomNavigationAction label="Github" icon={<GitHubIcon />} />
+        <div
+            style={{color: "gray", position: "fixed", bottom: 0}}
+        >
+            <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
+                <BottomNavigationAction
+                    label="github"
+                    value="github"
+                    icon={<GitHubIcon />}
+                />
+                <BottomNavigationAction
+                    label="linkedin"
+                    value="linkedin"
+                    icon={<LinkedInIcon />}
+                />
             </BottomNavigation>
+        </div>
+
     )
 }
 
