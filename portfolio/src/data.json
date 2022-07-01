@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "titre": "La Carte des animaux",
+    "description": "Projet annuel réalisé en Symfony",
+    "langage": "PHP",
+    "technos": "Symfony, Docker, Héroku",
+    "lien_git":"https://github.com/christmknd/PA-4IWJ-Grp1"
+  },
+  {
+    "id": "2",
+    "titre": "Projet Devops - Déploiement d'une API",
+    "description": "Déployer une API sur AWS avec GitlabCI ,Terraform et Ansible",
+    "langage": "Python",
+    "technos": "GitlabCI ,Terraform,Ansible",
+    "lien_git":"https://gitlab.com/christmknd/devops_final_tp"
+  },
+  {
+    "id": "3",
+    "titre": "Projet Green IT",
+    "description": "Calcul et comparateur d'indice de fragilité des villes de France, avec une démarche Green IT",
+    "langage": "Javascript",
+    "technos": "React, NodeJS",
+    "lien_git":"https://github.com/christmknd/green-it"
+  },
+  {
+    "id": "4",
+    "titre": "Portfolio Django",
+    "description": "Version de ce portfolio en Python",
+    "langage": "Python",
+    "technos": "Django",
+    "lien_git":"https://github.com/christmknd/Portfolio-Django"
+  },
+  {
+    "id": "5",
+    "titre": "Chat Progressive Web Application ",
+    "description": "Application per",
+    "langage": "Javascript",
+    "technos": "React, Firebase",
+    "lien_git":"https://github.com/christmknd/ChatPwa-4IWJ"
+  }
+]
