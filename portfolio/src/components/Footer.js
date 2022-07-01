@@ -13,7 +13,7 @@ function Footer (){
 
     return (
         <div
-            style={{color: "gray", position: "fixed", bottom: 0}}
+            style={{color: "gray", bottom: 0}}
         >
             <BottomNavigation sx={{ width: 500 }} value={value} onChange={handleChange}>
                 <BottomNavigationAction
